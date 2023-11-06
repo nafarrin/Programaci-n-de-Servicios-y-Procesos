@@ -20,7 +20,7 @@ public class Main {
 
         Citizen[] citizens = new Citizen[NCITIZENS];
         for (int i = 0; i < NCITIZENS; i++) {
-            citizens[i] = new Citizen(town, complaints);
+            citizens[i] = new Citizen(town, complaints, i);
         }
 
         System.out.print("Empieza la simulación: \r\n");
