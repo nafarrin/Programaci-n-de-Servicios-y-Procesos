@@ -29,7 +29,7 @@ public class Conector {
                     new PrintWriter(osw);
 
 
-            pWriter.println("GET /index.html HTTP/1.0\r\n\r\n".getBytes());
+            pWriter.println("GET /index.html HTTP/1.0\r\n\r\n");
             pWriter.flush();
             String linea;
             FileWriter escritorArchivo=
