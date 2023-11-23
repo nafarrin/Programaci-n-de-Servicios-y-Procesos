@@ -1,16 +1,5 @@
 package MainServ;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
-
-public class Servidor extends Conexion //Se hereda de conexión para hacer uso de los sockets y demás
-{
-    public Servidor() throws IOException{super("servidor");} //Se usa el constructor para servidor de MainServ.Conexion
-
-    public void startServer()//Método para iniciar el servidorpackage MainServ;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
