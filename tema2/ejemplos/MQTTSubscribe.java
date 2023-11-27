@@ -15,7 +15,7 @@ public class MQTTSubscribe {
         String publisherId = UUID.randomUUID().toString();
         IMqttClient publisher = null;
         try {
-            publisher = new MqttClient("tcp://ec2-3-83-241-142.compute-1.amazonaws.com:1883", publisherId);
+            publisher = new MqttClient("tcp://54.175.62.134:1883", publisherId);
         } catch (MqttException e) {
             throw new RuntimeException(e);
         }

@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class RedisClient {
     public static void main(String[] args) throws IOException {
-        Jedis jedis = new Jedis("52.201.217.100", 6000);
+        Jedis jedis = new Jedis("54.92.203.211", 6379);
 
         redisGetSetValues(jedis);
         redisList(jedis);
